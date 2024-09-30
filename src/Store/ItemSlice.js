@@ -10,7 +10,7 @@ const itemSlice = createSlice({
   initialState,
   reducers: {
     setItems: (state, action) => {
-      state.items = action.payload; // Set items from API response
+      state.items = action.payload;
     },
     setSearchTerm: (state, action) => {
       state.searchTerm = action.payload;

@@ -1,7 +1,7 @@
 import React from "react";
 
 const Item = React.memo(({ item }) => {
-  const { title, description, price, rating } = item; // Destructure the relevant fields
+  const { title, description, price, rating } = item;
 
   return (
     <div className="list-item">
